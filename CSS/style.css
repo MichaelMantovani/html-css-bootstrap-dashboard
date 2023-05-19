@@ -14,10 +14,24 @@ header{
 
 /***** MAIN *****/
 
-.bottom-content{
+.main-content{
   height: calc(100vh - 100px);
 }
 
+
 #sidebar{
   background-image: url(../img/sidebar-bg.png);
+  height: calc(100vh - 100px);
+  width: 20%;
 }
+
+.main-section{
+  width: 100%;
+  height: calc(100vh - 100px);
+}
+
+.main-hd{
+  height: 100px;
+}
+
+
