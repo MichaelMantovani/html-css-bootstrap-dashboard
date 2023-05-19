@@ -28,10 +28,13 @@ header{
 .main-section{
   width: 100%;
   height: calc(100vh - 100px);
+  overflow: auto;
 }
 
 .main-hd{
   height: 100px;
 }
+
+
 
 
