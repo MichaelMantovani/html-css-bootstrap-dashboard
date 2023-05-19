@@ -1,3 +1,16 @@
-body{
-;
-}
+
+
+/******* DEBUG *******/
+
+  .bso{
+    border: 1px solid orange;
+  }
+
+
+  .bdb{
+    border: 1px dashed black;
+  }
+
+  .bdr{
+    border: 1px dashed red;
+  }
