@@ -3,6 +3,21 @@
 /***** HEADER *****/
 
 header{
+  height: 100px;
   background-color: rgb(248,249,250);
+  position: sticky;
+  top: 0;
+  right: 0;
 }
 
+
+
+/***** MAIN *****/
+
+.bottom-content{
+  height: calc(100vh - 100px);
+}
+
+#sidebar{
+  background-image: url(../img/sidebar-bg.png);
+}
