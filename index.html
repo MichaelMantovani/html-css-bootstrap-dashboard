@@ -10,6 +10,9 @@
 
   <!-- Debug stylesheet-->
   <link rel="stylesheet" href="css/debug.css">
+
+  <!-- Font Awesome -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' integrity='sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==' crossorigin='anonymous'/>
   
   <!-- Style stylesheet-->
   <link rel="stylesheet" href="CSS/style.css">
@@ -18,14 +21,39 @@
 
 
 <body>
-  <header class="bdr">
-    <nav id="nav-bar" class="bdb container-fluid">
-      <div class="row py-4">
-        <div class="bso logo col-2">Logo</div>
-        <div class="bso search-bar col-8">Search</div>
-        <div class="bso nav-menu col-2">Nav-menu</div>
+  <header class="container-fluid">
+      <div class="row align-items-center h-100">
+        <div class="col">
+          <a href="#" class="d-md-none">
+            <img class="logo" src="img/mobile-logo.png" alt="Logo mobile">
+          </a>
+          <a href="" class="logo d-none d-md-block">
+            <img src="img/logo.svg" alt="Logo large">
+          </a>
+        </div>
+        <div class=" search-bar col-8  col-lg-9">
+          <form class="d-flex form-control bg-lightgrey" role="search">
+            <!-- <input type="button" value="" class="btn btn-search"/> -->
+            <input class="border-0 bg-lightgrey form-control" type="search" placeholder="Prova a cercare: Lezioni di Laravel">
+          </form>
+        </div>
+        <div class="nav-menu col">
+          <ul class="list-unstyled d-flex justify-content-between m-0">
+            <li class="d-none d-md-block">
+              <a href="#"><i class="fa-solid fa-list"></i></a>
+            </li>
+            <li class="d-none d-md-block">
+              <a href="#"><i class="fa-solid fa-circle-question"></i></a> 
+            </li>
+            <li class="d-none d-md-block">
+              <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-bell"></i></a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </nav>
   </header>
 
   <div class="bdr main-content d-flex">

@@ -1,33 +1,68 @@
+/*  **** BREAKPOINTS ****
+
+  Small	sm	≥576px
+  Medium	md	≥768px
+  Large	lg	≥992px      */
+
+
+
+/****** GENERCIS ******/
+
+.search-bar form{
+  background-color: rgb(229,229,229);
+}
+
+.fa-bell{
+  color: rgb(255,143,0);
+}
+
+a{
+  color: rgb(91,88,88);
+}
+
+
+/**** UTILITY ****/
+
+.bg-lightgrey{
+  background-color: rgb(229,229,229);
+}
 
 
 /***** HEADER *****/
 
 header{
-  height: 100px;
-  background-color: rgb(248,249,250);
+  height: 80px;
   position: sticky;
   top: 0;
   right: 0;
+  
+  
+  background-color: white;
 }
+
+.logo{
+  max-height: 80px;
+}
+
 
 
 
 /***** MAIN *****/
 
 .main-content{
-  height: calc(100vh - 100px);
+  height: calc(100vh - 80px);
 }
 
 
 #sidebar{
   background-image: url(../img/sidebar-bg.png);
-  height: calc(100vh - 100px);
+  height: calc(100vh - 80px);
   width: 20%;
 }
 
 .main-section{
   width: 100%;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 80px);
   overflow: auto;
 }
 
