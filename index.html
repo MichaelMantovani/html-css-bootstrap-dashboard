@@ -26,16 +26,18 @@
   <header class="container-fluid">
       <div class="row align-items-center h-100">
 
+       
         <!-- Logo -->
         <div class="col">
-          <a href="#" class="d-md-none">
+          <a href="#" class="d-lg-none">
             <img class="logo" src="img/mobile-logo.png" alt="Logo mobile">
           </a>
-          <a href="" class="logo d-none d-md-block">
+          <a href="" class="logo d-none d-lg-block">
             <img src="img/logo.svg" alt="Logo large">
           </a>
         </div>
 
+        
         <!-- Search bar -->
         <div class=" search-bar col-8  col-lg-9">
           <form class="d-flex form-control bg-lightgrey" role="search">
@@ -44,16 +46,17 @@
           </form>
         </div>
 
+        
         <!-- Navigation menu -->
         <div class="nav-menu col">
           <ul class="list-unstyled d-flex justify-content-between m-0">
-            <li class="d-none d-md-block">
+            <li class="d-none d-lg-block">
               <a href="#"><i class="fa-solid fa-list"></i></a>
             </li>
-            <li class="d-none d-md-block">
+            <li class="d-none d-lg-block">
               <a href="#"><i class="fa-solid fa-circle-question"></i></a> 
             </li>
-            <li class="d-none d-md-block">
+            <li class="d-none d-lg-block">
               <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
             </li>
             <li>
@@ -64,17 +67,40 @@
       </div>
   </header>
 
-  <div class="bdr main-content d-flex">
-    <div id="sidebar" class="bso container-fluid">
-      <div class="bdb row row-cols-1 align-content-between h-100">
-        <div class="bso col">
-          <ul class="list-unstyled">
-            <li>link</li>
-            <li>link</li>
-            <li>link</li>
+
+ 
+  <!-- Main content section -->
+  <div class="main-content d-flex">
+    <div id="sidebar" class="container-fluid ">
+      <div class="row row-cols-1 align-content-between  h-100">
+        <div class="col">
+          <ul class="list-unstyled pt-4">
+            <li>
+              <a href="#"><i class="fa-solid fa-house fa-xl"></i></a>
+              <span class="d-none d-lg-inline">
+                <a href="#">Home</a>
+              </span>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-chart-simple fa-xl"></i></a>
+              <span class="d-none d-lg-inline">
+                <a href="#">Stats</a>
+              </span>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-signal fa-xl"></i></a>
+              <span class="d-none d-lg-inline">
+                <a href="#">Signals</a>
+              </span>
+            </li>
           </ul>
         </div>
-        <div class="bso col">link</div>
+        <div class="col pb-4 text-center">
+          <a href="#"><i class="fa-solid fa-gear fa-xl"></i></a>
+          <span class="d-none d-lg-inline">
+            <a href="#">Admin</a>
+          </span>
+        </div>
       </div>
     </div> 
     <div class="main-section bso">

@@ -17,8 +17,10 @@
 }
 
 a{
-  color: rgb(91,88,88);
+  text-decoration: none;
 }
+
+
 
 
 /**** UTILITY ****/
@@ -26,6 +28,7 @@ a{
 .bg-lightgrey{
   background-color: rgb(229,229,229);
 }
+
 
 
 /***** HEADER *****/
@@ -44,6 +47,11 @@ header{
   max-height: 80px;
 }
 
+.nav-menu a{
+  color: rgb(91,88,88);
+}
+
+
 
 
 
@@ -54,11 +62,7 @@ header{
 }
 
 
-#sidebar{
-  background-image: url(../img/sidebar-bg.png);
-  height: calc(100vh - 80px);
-  width: 20%;
-}
+
 
 .main-section{
   width: 100%;
@@ -71,5 +75,37 @@ header{
 }
 
 
+/***** SIDEBAR *****/
 
+#sidebar{
+  height: calc(100vh - 80px);
+  max-width: 17%;
+  background-image: url(../img/sidebar-bg.png);
+  background-color: rgb(5,30,52);  
+ 
+}
+
+#sidebar a{
+  color: white;
+}
+
+
+#sidebar li{
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+#sidebar .fa-solid{
+  padding-right: 1rem;
+}
+
+
+
+/******** RESPONSIVE ********/
+
+@media screen and (min-width:768px) {
+  #sidebar{
+    max-width: 15%;
+  }
+}
 
