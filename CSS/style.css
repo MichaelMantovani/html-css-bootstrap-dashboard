@@ -35,11 +35,6 @@ a{
 
 header{
   height: 80px;
-  position: sticky;
-  top: 0;
-  right: 0;
-  
-  
   background-color: white;
 }
 
@@ -57,16 +52,13 @@ header{
 
 /***** MAIN *****/
 
-.main-content{
+.wrapper{
   height: calc(100vh - 80px);
 }
 
 
-
-
 .main-section{
-  width: 100%;
-  height: calc(100vh - 80px);
+  flex: 1 1 auto;
   overflow: auto;
 }
 
@@ -78,8 +70,7 @@ header{
 /***** SIDEBAR *****/
 
 #sidebar{
-  height: calc(100vh - 80px);
-  max-width: 17%;
+  flex: 0 0 70px;
   background-image: url(../img/sidebar-bg.png);
   background-color: rgb(5,30,52);  
  
