@@ -120,7 +120,7 @@ header{
   color: white;
 }
 
-/* MAIN CONTENT */
+/***** MAIN CONTENT *****/
 
 .img-avatar{
   flex: 0 0 35px;
