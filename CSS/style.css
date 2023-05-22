@@ -33,6 +33,10 @@ a{
   color: white;
 }
 
+.col-black{
+  color: black;
+}
+
 .btn-add{
   border: 1px solid white;
   border-radius: 5px;
@@ -54,8 +58,6 @@ a{
   font-size: 0.85rem;
   font-weight: 600;
 }
-
-
 
 
 
