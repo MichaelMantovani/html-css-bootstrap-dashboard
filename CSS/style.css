@@ -29,9 +29,30 @@ a{
   background-color: rgb(229,229,229);
 }
 
+.col-white{
+  color: white;
+}
+
+.btn-add{
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 8px 13px;
+}
 
 
-/***** HEADER *****/
+.bg-pills{
+  background-color: rgb(22,91,186);
+}
+
+.pills{
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+
+
+
+/***** PAGE-HEADER *****/
 
 header{
   height: 80px;
@@ -62,9 +83,6 @@ header{
   overflow: auto;
 }
 
-.main-hd{
-  height: 100px;
-}
 
 
 /***** SIDEBAR *****/
@@ -85,6 +103,15 @@ header{
   text-align: center;
   padding-bottom: 2rem
 }
+
+
+/***** MAIN-HEADER *****/
+
+.main-hd{
+  color: white;
+}
+
+
 
 
 

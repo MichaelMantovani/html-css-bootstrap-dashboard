@@ -22,7 +22,7 @@
 
 <body>
 
-  <!-- Header navigation menu -->
+  <!-- Page Header navigation menu -->
   <header class="container-fluid">
       <div class="row align-items-center h-100">
 
@@ -69,8 +69,11 @@
 
 
  
-  <!-- Main content section -->
+  <!-- Wrapper section -->
   <div class="wrapper d-flex">
+
+
+    <!-- Sidebar -->
     <div id="sidebar" class="d-flex flex-column justify-content-between">
       <div>
         <ul class="list-unstyled pt-4">
@@ -101,12 +104,31 @@
         </span>
       </div>
     </div>
-    <div class="main-section bso">
-      <div class="bso main-hd bg-primary container-fluid">
-        <div class="row row-cols-1 row-cols-md-3 h-100">
-          <div class="bso col"></div>
-          <div class="bso col"></div>
-          <div class="bso col"></div>
+
+    <!-- Main section -->
+    <div class="main-section">
+
+      <!-- Main header -->
+      <div class="main-hd bg-primary container-fluid">
+        <div class="row row-cols-1 row-cols-md-3">
+          <div class="col col-lg fw-semibold py-4 order-md-2 text-lg-center">Nuovo Studente
+            <a class="col-white btn-add ms-2" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">+</a>
+          </div>
+          <div class="col col-lg-6 pt-3">
+            <h2 class="d-inline">Boolean</h2>
+            <span class="badge pills rounded-pill bg-pills ">Piano blaze</span>
+            <div class="pt-1">
+              <span class="badge pills rounded-pill bg-pills ">3 app</span>
+              <span class="pills"><i class="fa-solid fa-angles-right"></i></span>
+              <span class="badge pills rounded-pill bg-pills d-lg-none">+</span>
+              <span class="badge pills rounded-pill bg-pills d-none d-lg-inline">Boolean mobile app</span>
+              <span class="badge pills rounded-pill bg-pills d-none d-lg-inline">Boolean web app</span>
+              <span class="badge pills rounded-pill bg-pills d-none d-lg-inline">Boolean blog app</span>
+            </div>
+          </div>
+          <div class="col col-lg fw-semibold py-4">Studenti online negli ultimi 30 minuti
+            <h2 class="pt-1">125</h2>
+          </div>
         </div>
       </div>
       <main class="bso container-fluid h-100">
