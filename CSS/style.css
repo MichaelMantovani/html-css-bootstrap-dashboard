@@ -70,7 +70,7 @@ header{
 /***** SIDEBAR *****/
 
 #sidebar{
-  flex: 0 0 70px;
+  flex: 0 0 95px;
   background-image: url(../img/sidebar-bg.png);
   background-color: rgb(5,30,52);  
  
@@ -82,21 +82,17 @@ header{
 
 
 #sidebar li{
-  padding-bottom: 2rem;
   text-align: center;
-}
-
-#sidebar .fa-solid{
-  padding-right: 1rem;
+  padding-bottom: 2rem
 }
 
 
 
 /******** RESPONSIVE ********/
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:992px) {
   #sidebar{
-    max-width: 15%;
+    flex: 0 0 150px;
   }
 }
 
