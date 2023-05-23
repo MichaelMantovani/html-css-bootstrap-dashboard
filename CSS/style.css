@@ -63,6 +63,7 @@ a{
 
 
 
+
 /***** PAGE-HEADER *****/
 
 header{
@@ -138,15 +139,25 @@ header{
 /******** RESPONSIVE ********/
 
 
+@media screen and (min-width:576px) {
+  .offcanvas.offcanvas-end{
+    width: 100%;
+  }
+}
+
+
 @media screen and (min-width:992px) {
   #sidebar{
     flex: 0 0 150px;
   }
-
   
 }
 
-
+@media screen and (min-width: 1200px) {
+  .offcanvas.offcanvas-end{
+    width: 50%;
+  }
+}
 
 
 
